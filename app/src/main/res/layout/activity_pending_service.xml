@@ -1,0 +1,197 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/tID"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:background="@color/btn_login_bg"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="10dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.4"-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="@color/lbl_name" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/email"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_weight="0.4"-->
+            <!--android:textColor="@color/lbl_name" />-->
+
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tID2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnFromdatepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="@drawable/backage_text"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="FROM Date"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/btnTodatepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="@drawable/backage_text"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="TO Date"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submitDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="@color/btn_login"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/tID3"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="10dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtFromdate"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.3"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:text=""-->
+            <!--android:textColor="#1c1c1c"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtTodate"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.3"-->
+            <!--android:text=""-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#1c1c1c"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtTodate2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.3"-->
+            <!--android:text=""-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#1c1c1c"-->
+            <!--android:textStyle="bold" />-->
+
+
+
+    <!--</LinearLayout>-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:showDividers="beginning|end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/SL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="@string/sid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="@string/stime"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/CompanyName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="@string/company"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ContactPerson"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/responsible"
+                android:textColor="#1c1c1c"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

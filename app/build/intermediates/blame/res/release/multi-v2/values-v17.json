@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v17\\values-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\smakash\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\da5bf2494f01067ddde923aed1c1a0f4\\res\\values-v17\\values-v17.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
+                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
+                    },
+                    "to": {
+                        "startLines": "5,8,12,15,18,21,25,29,32,35,38,42,45,49",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "242,415,643,801,951,1123,1351,1593,1764,1938,2107,2380,2580,2784",
+                        "endLines": "7,11,14,17,20,24,28,31,34,37,41,44,48,52",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "410,638,796,946,1118,1346,1588,1759,1933,2102,2375,2575,2779,3108"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\smakash\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-10.39.235.15.aar\\5c5f598b6f21b6bcebe4493227324214\\res\\values-v17\\styles.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "232",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "3113",
+                        "endLines": "56",
+                        "endColumns": "12",
+                        "endOffsets": "3352"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\smakash\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-10.39.235.15.aar\\5c5f598b6f21b6bcebe4493227324214\\res\\values-v17\\ui_java_styles.xml",
+                    "from": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "233",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "415"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "237"
+                    }
+                }
+            ]
+        }
+    ]
+}

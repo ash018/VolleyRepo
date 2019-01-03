@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:showDividers="beginning|end"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/SLPending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="#1c1c1c"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DatePending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:padding="10dp"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#1c1c1c"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CompanyNamePending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:padding="10dp"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#1c1c1c"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ContactPersonPending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:padding="10dp"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#1c1c1c"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</LinearLayout>

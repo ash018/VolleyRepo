@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.xwalk:xwalk_core_library-10.39.235.15">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-10.39.235.15.aar/5c5f598b6f21b6bcebe4493227324214/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-10.39.235.15.aar/5c5f598b6f21b6bcebe4493227324214/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

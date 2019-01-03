@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Wed Jan 02 15:41:47 BDT 2019
+7.path=backward
+2.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+5.set=ASSET
+0.path=fonts/Roboto-Bold.ttf
+2.baseType=DIRECTORY
+3.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+7.baseType=DIRECTORY
+2.set=NATIVE_RESOURCE
+1.path=zone.tab
+4.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+7.set=ASSET
+count=8
+5.baseType=DIRECTORY
+2.path=lib/armeabi-v7a/libxwalkcore.so
+5.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+4.set=DEX
+3.path=lib/x86/libxwalkcore.so
+6.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=classes.dex
+7.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=fonts/Roboto-Light.ttf
+0.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+6.path=fonts/AndroidClockMono-Thin.ttf
+1.base=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+4.baseType=DIRECTORY
+0.set=ASSET

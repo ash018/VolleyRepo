@@ -1,0 +1,4 @@
+#Thu Jan 03 12:11:14 BDT 2019
+base.0=E\:\\AndroidG\\MotorEquipment\\MotorEquipment\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
